@@ -1,0 +1,73 @@
+body
+{
+    background-color: darkgreen;
+}
+
+#show_sketch
+{
+    float: right;
+}
+
+h1
+{
+    color: red;
+    background-color: cornsilk;
+    text-align: center;
+}
+
+canvas 
+  {
+    background-color: white;
+    border:2px solid white;
+    border-radius:20px;
+    margin-top:135px;
+    box-shadow:5px 5px 5px grey;
+    box-shadow: 1px 1px 38px #ffffff;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px red;}
+  to {box-shadow: 1px 1px 38px green;}
+
+}
+
+#score
+{
+    float: left;
+    color: black;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+#Timer
+{
+    float: right;
+    color: black;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+#label-1
+{
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+}
+
+#label-2
+{
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+}
+
+#label-3
+{
+    font-size: 25px;
+    font-weight: bolder;
+    color: cyan;
+}
+
